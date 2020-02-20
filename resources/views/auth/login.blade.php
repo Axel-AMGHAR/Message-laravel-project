@@ -67,6 +67,35 @@
                     </form>
                 </div>
             </div>
+            <br>
+            <div class="card">
+                <div class="card-header">
+                    Pour tester :
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>Pour voir un exemple, se connecter avec
+                            <ul>
+                                <li>user@gmail.com</li>
+                                <li>user</li>
+                            </ul> </li>
+                        <li>Pour tester, se connecter avec
+                            <ul>
+                                <li>numéro@gmail.com</li>
+                                <li>numéro</li>
+                            </ul>
+                        </li>
+                        <li> Exemple: (de 0 à 9)
+                            <ul>
+                                <li>0@gmail.com</li>
+                                <li>0</li>
+                            </ul>
+                        </li>
+                        <li>Et écrire un message à une personne | Pour voir la conversation du coté de l'autre utilisateur il faut se connecter avec son compte </li>
+                        <li> PS: il faut se déco/reco à chaque fois pour faire une vrai conversation (étant donné que l'on est en local)</li>
+                        <li> On peut aussi créer des nouveaux utilisateurs ( mais cela prend du temps)</li>
+                    </ul>
+                </div>
         </div>
     </div>
 </div>

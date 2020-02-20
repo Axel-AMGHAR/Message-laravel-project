@@ -11,17 +11,23 @@ class MessagesTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(\App\User::class,50)->create();
         $user = DB::table('users')->insertGetId([
             'name' => 'axel AMGHAR',
             'email' => 'user@gmail.com',
             'password' => bcrypt('user')
         ]);
         $admin = DB::table('users')->insertGetId([
-            'name' => 'dorian Saez',
+            'name' => 'dorian Saez (example)',
             'email' => 'admin@gmail.com',
             'password' => bcrypt('admin')
         ]);
+        for ($i = 0; $i < 10; $i++){
+            DB::table('users')->insertGetId([
+                'name' => 'numéro '. $i,
+                'email' => $i.'@gmail.com',
+                'password' => bcrypt($i)
+            ]);        }
+
 
         $conversation = DB::table('conversations')->insertGetId([
             'user1_id' => $user,

@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/chat/{user_id}', 'HomeController@chat')->name('chat');
+Route::post('/chat_add', 'HomeController@chat_add')->name('chat_add');
