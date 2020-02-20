@@ -1,0 +1,11 @@
+composer global require laravel/installer
+composer create-project --prefer-dist laravel/laravel project_name
+composer install
+composer dump-autoload
+
+//  Authentification
+composer require laravel/ui --dev
+php artisan ui vue --auth
+
+//  Migrations/seeds
+php artisan migrate:fresh --seed
